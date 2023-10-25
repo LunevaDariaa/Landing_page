@@ -3,7 +3,8 @@
 header{
     background-color: #1F2937;
     color: rgb(255, 255, 255);
-    padding: 20px 150px;
+    padding: 20px 0px;
+    height: 400px;
 }
 
 .header{
@@ -18,8 +19,9 @@ header{
 }
 
 .header .logo{
-    flex:6;
+    flex:5;
     font: 24px bold;
+    margin-left: 50px;
 
 }
 .greeting .right_msg{
@@ -28,6 +30,8 @@ header{
     align-items: flex-start;
     justify-content: center;
     width: 500px;
+    height: 200px;
+    margin-right: 70px;
     
 }
 
@@ -60,6 +64,57 @@ border-radius: 8px;
 
 h1{
     font-size: 42px;
-    font-weight: bold;
+    font-weight: extra-bold;
     margin: 2px 0px;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#photo{
+    border-color:#3882F6;
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 16px;
+
+}
+.text{
+    margin: 90px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.text .description, .text .photos{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.description div{
+    margin: 20px 50px 100px 80px;
+}
+article{
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    background-color: #b5c0d1;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    padding: 30px 180px;
+    font-style: italic;
+}
+
+article .cite{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
