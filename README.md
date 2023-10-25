@@ -1,1 +1,2 @@
 # Landing_page
+This is a "Landing Page" project, the assignment from Odin after completing the foundamention parts of CSS and HTML. I'm planning return to it later and add some js code and more advanced CSS.
