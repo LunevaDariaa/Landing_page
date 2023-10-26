@@ -54,16 +54,16 @@ header{
 }
 
 button{
-width: 130px;
-height: 38px;
-background-color:#3882F6;
-color: white;
-font-size: 16px;
-border-radius: 8px;
+    width: 130px;
+    height: 38px;
+    background-color:#3882F6;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
 }
 
 h1{
-    font-size: 42px;
+    font-size: 48px;
     font-weight: extra-bold;
     margin: 2px 0px;
 }
@@ -85,7 +85,6 @@ main{
 }
 .text{
     margin: 90px;
-    
     display: flex;
     flex-direction: column;
 }
@@ -95,20 +94,23 @@ main{
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
+    flex-wrap:inherit;
 
 }
 .description div{
-    margin: 20px 50px 100px 80px;
+   /* margin: 20px 50px 100px 80px;*/
+    width: 100px;
 }
 article{
     display: flex;
-    height: 400px;
+    height: auto;
+    width: auto;
     flex-direction: column;
-    background-color: #b5c0d1;
+    background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
     font-size: 38px;
-    padding: 30px 180px;
+    padding: 80px 250px;
     font-style: italic;
 }
 
@@ -118,3 +120,52 @@ article .cite{
     align-self: flex-end;
 }
 
+.window{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.sign_up{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 1100px;
+    border-radius: 12px;
+    height: 120px;
+    background-color:#217adf;
+
+}
+.msg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    color: white;
+}
+.msg h2{
+    margin-bottom: 0px;
+}
+
+.msg p{
+    margin-top: 0px;
+}
+button.btn_sign{
+border-color: white;
+border-style: groove;
+border-width: 3px;
+border-radius: 6px;
+
+}
+
+footer{
+    display: flex;
+    background-color: #1F2937;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    
+}
